@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #5e6164; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #b2b2b2; 
+  border-radius: 30px;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container table{
+  margin-bottom: 10px;
+}
+
+.container h1, p {
+  color: #211c1c; 
+  margin-bottom: 20px;
+}
+
+.container input{
+  margin-bottom: 5px;
+}
